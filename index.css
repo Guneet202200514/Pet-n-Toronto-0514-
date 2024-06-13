@@ -161,3 +161,79 @@ a:hover {
     font-size: 1em;
     font-weight: bold;
 }
+
+.about-section {
+    margin-top: 20px;
+}
+
+.about-section h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+.about-section p, .about-section ul {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Form Styles */
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #004d99;
+}
+
+/* Photos Section Styles */
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.photos .photo {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
